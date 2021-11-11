@@ -8,5 +8,5 @@ while True:
     success, img = cap.read()
     img = cv2.flip(img, 1)
     cv2.imshow("Display",img)
-    cv2.waitKey(100)
+    cv2.waitKey(10)
     cv2.destroyAllWindows()
