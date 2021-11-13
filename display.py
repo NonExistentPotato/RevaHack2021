@@ -185,7 +185,7 @@ while True:
                         break
                     else:
                         PINtext += button.text
-                        sleep(0.5)
+                        sleep(1)
         if breakerP:
             break
     cv2.rectangle(img, (50,500), (400,600), (255,0,255), cv2.FILLED)
